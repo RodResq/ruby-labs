@@ -1,7 +1,3 @@
-puts 175 == 175
-puts 175 == 174
-puts 175 == "175"
-puts "175".to_i == 175
-
-puts 175 != 174
-puts 175 != 175
+for dados in 1..3 do
+    puts "Contando..." + dados.to_s
+end
