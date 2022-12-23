@@ -14,8 +14,18 @@ chute = gets
 puts "Sera que acertou? Voce chutou " + chute
 puts chute.to_i == numero_secreto
 
-if numero_secreto == chute.to_i
+# Comentario de um alinha
+=begin
+    Comentario de varias linhas
+=end
+acertou = numero_secreto == chute.to_i
+if acertou
     puts "Voce acertou!"
 else
-    puts "Voce errou!"
+    maior = numero_secreto > chute.to_i
+    if maior 
+        puts("O numero secreto é maior!")
+    else
+        puts("O Numero secreto é menor!")
+    end
 end
