@@ -5,6 +5,7 @@ class MegaGreeter
         @names = names
     end
 
+    # Say hi to everybody
     def say_hi
         if @names.nil?
             puts "..."
